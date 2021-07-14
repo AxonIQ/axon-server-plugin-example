@@ -11,7 +11,7 @@ services:
       - '8024:8024'
       - '8124:8124'
     networks:
-      - axon-server-plugin-sample
+      - axon-server-plugin-example
 
 networks:
-  axon-server-plugin-sample:
+  axon-server-plugin-example:
