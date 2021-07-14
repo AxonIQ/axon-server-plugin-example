@@ -11,7 +11,7 @@ On both operations you should get the event logged as well as an additional mess
 _Axon Server Plugins_ are _OSGi_ modules that contains the plugin implementations. It's written with _Java_ and _Maven_. Because of that, a simple `mvn clean verify` is enough to build a jar into the `target` folder that can be uploaded into _Axon Server Plugin Interface_.
 
 ## How to run
-For testing purposes, a `docker-compose.yml` file with _Axon Server_ is provided and configured. To use it, running `docker composer up` in the same directory of the file is enough to have the needed infrastructure pieces up and running. After building or downloading the plugin, you have to upload it on _Axon Server Plugin Interface_. Once it is uploaded, you have to _Start_ the plugin clicking on the start button.
+For testing purposes, a `docker-compose.yml` file with _Axon Server_ is provided and configured. To use it, running `docker compose up` in the same directory of the file is enough to have the needed infrastructure pieces up and running. After building or downloading the plugin, you have to upload it on _Axon Server Plugin Interface_. Once it is uploaded, you have to _Start_ the plugin clicking on the start button.
 
 ---
 
