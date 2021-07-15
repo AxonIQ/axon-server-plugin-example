@@ -8,13 +8,13 @@ This plugin is written on top of the [axon-server-plugin-api](https://github.com
 On both operations you should get the event logged as well as an additional message when the metadata of the event contains the `plugin` field we are looking for.
 
 ## How to build
-_Axon Server Plugins_ are _OSGi_ modules that contains the plugin implementations. It's written with _Java_ and _Maven_. Because of that, a simple `mvn clean verify` is enough to build a jar into the `target` folder that can be uploaded into _Axon Server Plugin Interface_.
+_Axon Server Plugins_ are _OSGi_ modules that contain the plugin implementations. It's written with _Java_ and _Maven_. Because of that, a simple `mvn clean verify` is enough to build a jar into the `target` folder that can be uploaded into _Axon Server Plugin Interface_.
 
 Uploading, activating, pausing and deleting the plugin can be automated by the `axonserver-cli`.
 For more info, check [here](https://docs.axoniq.io/reference-guide/axon-server/administration/admin-configuration/command-line-interface#plugins).
 
 ## How to run
-For testing purposes, a `docker-compose.yml` file with _Axon Server_ is provided and configured. To use it, running `docker compose up` in the same directory of the file is enough to have the needed infrastructure pieces up and running. After building or downloading the plugin, you have to upload it on _Axon Server Plugin Interface_. Once it is uploaded, you have to _Start_ the plugin clicking on the start button.
+For testing purposes, a `docker-compose.yml` file with _Axon Server_ is provided and configured. To use it, running `docker compose up` in the same directory of the file is enough to have the needed infrastructure pieces up and running. After building or downloading the plugin, you have to upload it on _Axon Server Plugin Interface_. Once it is uploaded, you have to _Start_ the plugin by clicking on the start button.
 
 ---
 
