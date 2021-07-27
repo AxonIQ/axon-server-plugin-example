@@ -18,7 +18,7 @@
         <protobuf.version>3.17.3</protobuf.version>
         <!-- loggin -->
         <slf4j.version>1.7.32</slf4j.version>
-        <logback.version>1.2.4</logback.version>
+        <logback.version>1.2.5</logback.version>
     </properties>
 
     <dependencies>
