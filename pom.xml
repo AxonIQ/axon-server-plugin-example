@@ -15,7 +15,7 @@
         <!-- specific plugin versions, need to be updated according to AS versions -->
         <axon.api.version>4.5</axon.api.version>
         <osgi.version>6.0.0</osgi.version>
-        <protobuf.version>3.19.0</protobuf.version>
+        <protobuf.version>3.19.1</protobuf.version>
         <!-- loggin -->
         <slf4j.version>1.7.32</slf4j.version>
         <logback.version>1.2.6</logback.version>
