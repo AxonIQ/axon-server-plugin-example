@@ -16,14 +16,7 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: 8
-
-      - name: Cache .m2
-        uses: actions/cache@v2.1.7
-        with:
-          path: ~/.m2/repository
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven
+          cache: 'maven'
 
       - name: Build and verify
         run: mvn -B -U clean verify
