@@ -13,7 +13,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <!-- specific plugin versions, need to be updated according to AS versions -->
-        <axon.api.version>4.5</axon.api.version>
+        <axon.api.version>4.6.0</axon.api.version>
         <osgi.version>6.0.0</osgi.version>
         <!-- loggin -->
         <slf4j.version>1.7.36</slf4j.version>
